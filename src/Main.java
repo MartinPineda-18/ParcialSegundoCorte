@@ -6,7 +6,7 @@ public class Main {
         Scanner teclado = new Scanner(System.in);
 
         Cliente cliente = new Cliente();
-        Laptop laptop = new Laptop("Vivobook","Asus",2,20,"AMD Ryzen 7","8gb");
+        Laptop laptop = new Laptop("Vivobook","Asus",2000000,20,"AMD Ryzen 7","8gb");
 
         laptop.mostrarDetalles();
         laptop.calcularPrecioVenta(0);

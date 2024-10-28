@@ -51,7 +51,7 @@ public class Laptop extends Producto implements Vendible{
             System.out.println("Cantidad NO disponible");
 
         } else if (cantidad > 5){
-                System.out.println("Total a pagar con descuento del 10%: " + (precio * cantidad) * 0.10);
+                System.out.println("Total a pagar con descuento del 10%: " + (precio * cantidad - precio * cantidad * 0.10) );
                 cantidadStock = cantidadStock - cantidad;
             } else {
                 System.out.println("Total a pagar: " + (precio * cantidad));
