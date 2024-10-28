@@ -44,7 +44,7 @@ public class Celular extends Producto implements Vendible{
         cantidad = teclado.nextInt();
 
         if (cantidad > 5){
-            System.out.println("Total a pagar con descuento del 10%: " + (precio * cantidad) * 0.10);
+            System.out.println("Total a pagar con descuento del 10%: " + (precio * cantidad - precio * cantidad * 0.10);
             cantidadStock = cantidadStock - cantidad;
         } else {
             System.out.println("Total a pagar: " + (precio * cantidad));
